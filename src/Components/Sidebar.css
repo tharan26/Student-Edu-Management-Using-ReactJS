@@ -1,0 +1,46 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: blue;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 80%;
+    margin-left: 10%;
+    background-color: lightblue;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icons i {
+    font-size: 45px;
+    display: block;
+    color: #faf0ca;
+}
+
+.icons h2 {
+    font-size: 18px;
+    color: #faf0ca;
+    font-family: monospace;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+}
+
+.tools i {
+    font-size: 30px;
+    color: #faf0ca;
+}
